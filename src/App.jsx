@@ -32,10 +32,10 @@ const Navbar = () => {
         <a href="#philosophy" className="hover:-translate-y-[1px] transition-transform">Philosophy</a>
         <a href="#protocol" className="hover:-translate-y-[1px] transition-transform">Protocol</a>
       </div>
-      <button className="bg-accent text-background px-5 py-2.5 rounded-full text-sm font-bold btn-magnetic">
+      <a href="mailto:inquiries@slipstreamm.com" className="inline-block bg-accent text-background px-5 py-2.5 rounded-full text-sm font-bold btn-magnetic">
         <span className="btn-layer"></span>
-        <span className="btn-text flex items-center gap-2">Consultation <ArrowRight size={16} /></span>
-      </button>
+        <span className="btn-text flex items-center gap-2">Contact <ArrowRight size={16} /></span>
+      </a>
     </nav>
   );
 };
@@ -81,10 +81,10 @@ const Hero = () => {
         </p>
         
         <div className="hero-elem">
-          <button className="bg-background text-primary px-8 py-4 rounded-full text-base font-bold btn-magnetic shadow-2xl">
+          <a href="mailto:inquiries@slipstreamm.com" className="inline-block bg-background text-primary px-8 py-4 rounded-full text-base font-bold btn-magnetic shadow-2xl">
             <span className="btn-layer bg-accent"></span>
-            <span className="btn-text flex items-center gap-3">Book A Free Consultation <ArrowRight size={18} /></span>
-          </button>
+            <span className="btn-text flex items-center gap-3">Contact <ArrowRight size={18} /></span>
+          </a>
         </div>
       </div>
     </section>
@@ -435,10 +435,10 @@ const CTASection = () => {
     <section className="py-32 px-6 bg-background border-t border-primary/10">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="font-drama italic text-5xl md:text-7xl text-primary mb-8">Ready to systematically scale?</h2>
-        <button className="bg-primary text-background px-10 py-5 rounded-full text-lg font-bold btn-magnetic shadow-xl">
+        <a href="mailto:inquiries@slipstreamm.com" className="inline-block bg-primary text-background px-10 py-5 rounded-full text-lg font-bold btn-magnetic shadow-xl">
           <span className="btn-layer bg-accent"></span>
-          <span className="btn-text flex items-center gap-3">Book A Free Consultation <ArrowRight size={20} /></span>
-        </button>
+          <span className="btn-text flex items-center gap-3">Contact <ArrowRight size={20} /></span>
+        </a>
       </div>
     </section>
   );
